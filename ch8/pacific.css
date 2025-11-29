@@ -114,6 +114,28 @@ section {
       height: 300px;
 } 
 
+table { margin: auto;
+        border: 1px solid #3399CC;
+        width: 90%;
+        text-align: center;
+        border-collapse: collapse;
+}
+
+td, th 
+{
+      padding: 5px;
+      border: 1px solid #3399CC;
+}
+td
+{
+      text-align: center;
+}
+.text
+{
+      text-align: left;
+}
+tr:nth-of-type(even) { background-color: #DFEDF8;}
+
 /* Medium Display */
 @media (min-width: 600px) {
 h1 {
@@ -155,11 +177,16 @@ section { padding-left: 2em;
 
 /*Large Display */
 @media (min-width: 1024px) {
-      body { background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%); }
-      nav ul { padding-right: 10%; 
-               padding-left: 10%;
+      body { 
+            background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%); 
+      }
+      
+      nav ul { 
+            padding-right: 10%; 
+            padding-left: 10%;
             }
-      #wrapper { width: 80%;
-                 margin: auto;
+      #wrapper { 
+            width: 80%;
+            margin: auto;
       }
 }
