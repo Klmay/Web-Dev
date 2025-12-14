@@ -1,0 +1,65 @@
+body { background-color: #d0ddc0; 
+       color: #000201;
+       font-family: Arial, Verdana, sans-serif; 
+      background-repeat: no-repeat;
+      background-image: linear-gradient(to bottom, #6c8b36, #d0ddc0)}
+main {
+      padding-left: 2em;
+      padding-right: 2em;
+      display: block;
+}
+header { background-color: #41250c; 
+       color: #FFFFFF;
+       font-family: Georgia, sans-serif; 
+      background-image: url(Final-Home-Page-Header.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 72px;
+}
+ h1 { text-align: center;
+      padding-top: .5em
+}
+h2 { color: #91725e; 
+	 font-family: Georgia, serif; 
+      }
+nav { font-weight: bold;
+      text-align: center;
+      background-color: #b67855;
+      padding: .5em .5em .5em; 
+}
+nav a { text-decoration: none;
+}
+dt { color: #2a552e;
+	font-weight: bold; 
+}
+
+.cook { color: #91725e; 
+          font-size: 1.2em;  
+      }
+footer { text-align: center;
+}
+#kitchenhero {
+      background: url(Homepage-Kitchen-Hero.jpg) no-repeat;
+      background-size: 100% 100%;
+      height: 300px;
+}
+#italianhero {
+      background: url(Italian-Page-Image.jpg) no-repeat;
+      background-size: 100% 100%;
+      height: 300px;
+}
+#frenchhero {
+      background: url(French-Page-Image.jpg) no-repeat;
+      background-size: 100% 100%;
+      height: 300px;
+}
+#mexicanhero {
+      background: url(Mexican-Page-Image.jpg) no-repeat;
+      background-size: 100% 100%;
+      height: 300px;
+}
+#mediterraneanhero {
+      background: url(Mediterranean-Page-Image.jpg) no-repeat;
+      background-size: 100% 100%;
+      height: 300px;
+}
