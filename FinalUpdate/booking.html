@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jane's Kitchen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="kitchen.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+<h1><a href="index.html">Jane's Kitchen</a></h1>
+</header>
+<nav>
+  <a href="index.html">Home</a> &nbsp; 
+     <a href="french.html">French Cooking</a> &nbsp; 
+	 <a href="italian.html">Italian Cooking</a> &nbsp;
+     <a href="mediterranean.html">Mediterranean Cooking</a> &nbsp;
+     <a href="mexican.html">Mexican Cooking</a> &nbsp;
+     <a href="booking.html">Book a Class!</a>
+</nav>
+<div id = "wrapper">
+<div id = "bookinghero">
+</div>
+<main>
+<h2>Still Interested? Book a class today!</h2>
+<p><strong>Notice:</strong> Classes must be booked at least <strong>seven</strong> days in advance
+to give our chefs time to prepare and order enough ingriedients.</p>
+
+<h3>Class Times</h3>
+  <p>
+    We offer classes every week at the same times.
+    Keep in mind, <strong>each class must be paid for seperately.</strong> 
+    The fee for the class goes towards restocking supplies and ingriedients for the class in question.
+    The building is closed Sundays to give our chefs time to clean and restock.
+    <strong>We do not meet on Christmas or Thanksgiving, but we do offer classes prior to them with activities centered around them.</strong>
+    Below you will find the table with the days each class meets and the time (<strong>Required fields have an asterisk *</strong>):
+  </p>
+  
+  <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+    <label for="myFName">*First Name:</label>
+    <input type="text" name="myFName" id="myFName" required>
+
+    <label for="myLName">*Last Name:</label>
+    <input type="text" name="myLName" id="myLName" required>
+
+    <label for="myEmail">*E-mail:</label>
+    <input type="text" name="myEmail" id="myEmail" required>
+
+    <label for="myPhone">Phone Number:</label>
+    <input type="text" name="myPhone" id="myPhone">
+
+    <label for="myClass">*Class:</label>
+    <input type="text" name="myClass" id="myClass" required>
+
+    <label for="myDate">*Day</label>
+    <input type="date" name="myDate" id="myDate" required>
+
+    <label for="classTime">*Class Time:</label>
+    <input type="text" name="classTime" id="classTime" required>
+
+    <label for="groupSize">*Number of People:</label>
+    <input type="number" name="groupSize" id="groupSize" min="1" max="4" required>
+
+    <label for="myComments">Any extra information?:</label>
+    <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+
+    <input id="mySubmit" type="submit" value="Submit">
+  </form>
+
+  <table>
+    <tr>
+      <th>Class</th>
+      <th>Day</th>
+      <th>Class 1</th>
+      <th>Class 2</th>
+      <th>Class 3</th>
+    </tr>
+    <tr>
+      <td class="text">Italian</td>
+      <td class="text">Monday, Wednesday, Friday</td>
+      <td class="text">8am-10am</td>
+      <td class="text">10:15am-12:15pm</td>
+      <td class="text">12:15pm-2:15pm</td>
+    </tr>
+    <tr>
+      <td class="text">Mexican</td>
+      <td class="text">Tuesday, Thursday, Saturday</td>
+      <td class="text">8am-10am</td>
+      <td class="text">10:15am-12:15pm</td>
+      <td class="text">12:15pm-2:15pm</td>
+    </tr>
+    <tr>
+      <td class="text">Mediterranean</td>
+      <td class="text">Monday, Wednesday, Friday</td>
+      <td class="text">8am-10am</td>
+      <td class="text">10:15am-12:15pm</td>
+      <td class="text">12:15pm-2:15pm</td>
+    </tr>
+    <tr>
+      <td class="text">French</td>
+      <td class="text">Tuesday, Thursday, Saturday</td>
+      <td class="text">8am-10am</td>
+      <td class="text">10:15am-12:15pm</td>
+      <td class="text">12:15pm-2:15pm</td>
+    </tr>
+  </table>
+</main>  
+<footer>
+  Copyright &copy; 2025 Jane's Home Kitchen <br />
+   <a href="mailto:kylin@may.com">kylin@may.com</a>
+</footer>
+</div>
+</body>
+</html>
